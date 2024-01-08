@@ -10,14 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/AryanMishra01/aryan-react.git"
   },
-  "keywords": [
-    "react",
-    "aryan"
-  ],
+  "keywords": [],
   "author": "Aryan",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AryanMishra01/aryan-react/issues"
   },
-  "homepage": "https://github.com/AryanMishra01/aryan-react#readme"
+  "homepage": "https://github.com/AryanMishra01/aryan-react#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
 }
