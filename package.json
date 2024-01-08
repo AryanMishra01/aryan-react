@@ -1,0 +1,23 @@
+{
+  "name": "aryan-react",
+  "version": "1.0.0",
+  "description": "Aryan react rev",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AryanMishra01/aryan-react.git"
+  },
+  "keywords": [
+    "react",
+    "aryan"
+  ],
+  "author": "Aryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AryanMishra01/aryan-react/issues"
+  },
+  "homepage": "https://github.com/AryanMishra01/aryan-react#readme"
+}
