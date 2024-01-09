@@ -26,9 +26,11 @@
             </script> -->
 
 <!--CDN LINK for REACT, core file -->
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<!--<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script> -->
 <!--CDN LINK for ReactDOM, bridge between React and Browser -->
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-<script src="./App.js"></script>
+<!--<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+<!-- Normal javascript do not have imports we need to use type="module" in script tags else it will throw an error-->
+<!-- type="module": it enables to identify as a module. -->
+<script type="module" src="./App.js"></script>
 </body>
 </html>

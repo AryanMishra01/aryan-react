@@ -2,7 +2,7 @@
   "name": "aryan-react",
   "version": "1.0.0",
   "description": "Aryan react rev",
-  "main": "App.js",
+
   "scripts": {
     "test": "jest"
   },
@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/AryanMishra01/aryan-react#readme",
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
