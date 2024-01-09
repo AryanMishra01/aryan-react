@@ -70,4 +70,13 @@
       - npx parcel build index.html
       - it will show error as: "Did you mean.."
       - Go to package.json and remove "main":  "App.js"
-      
+
+#  BrowsersList:
+    - Its a npm package.
+    - Tell the app to be compatibile with older browsers.
+    - In package.json add:
+             "browserslist": [
+                "last 2 versions",
+            ]
+   - This enable the app to work with all the browsers with last 2 versions
+   - We can configure for specific browser or country as well. Find details on: https://browserslist.dev/
