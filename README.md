@@ -46,6 +46,8 @@
     - It will do network call everytime we build the project.
     - Need to update the CDN links with latest one incase of React library updates.
 # parcel: list of things it does
+   - To install it: npm install -D parcel
+   - Here -D: dev dependency
    - Dev Build
    - Local Server
    - HMR: Hot Module Replacement => It uses file watching Algorithm- written in C++
@@ -71,6 +73,9 @@
       - it will show error as: "Did you mean.."
       - Go to package.json and remove "main":  "App.js"
 
+# To run file using parcel:
+      - npx parcel index.html
+
 #  BrowsersList:
     - Its a npm package.
     - Tell the app to be compatibile with older browsers.
@@ -80,3 +85,65 @@
             ]
    - This enable the app to work with all the browsers with last 2 versions
    - We can configure for specific browser or country as well. Find details on: https://browserslist.dev/
+
+# JSX: 
+    -  is a convention where we merge HTML and JavaScript.
+    - it has HTML like or XML- like syntax.
+     eg: const jsxHeading =  <h1 id="heading">Heading using JSX</h1>;
+    - To write JSX in multiple lines we need to wrap it with ( ). This enables Babel to understand the start and end point of jsx written in code.
+    - We need to write in camelCase e.g: className etc. unlike in HTML e.g classname
+
+Note: Javascript(JS) engine will not understand JSX, it only understand ECMA script
+    - parcel transpiled the code before  it reaches the JS engine.
+    - parcel gives this task to   Babel package   to do it.
+   
+# Babel:
+    - Babel is a Javascript compiler 
+    - Babel converts the JSX code to a code which browser could understand.
+    - Flow of conversion:
+      JSX=>Babel transpiles it to React.createElement => ReactElement-JS Object => HTMLElement(render)
+    - Babel also does transpilation of ECMA code to browser readable code.
+
+# Extension: for better code
+   - Prettier
+   - ESLint
+   - Bracket Pair Color
+
+# React Element:
+    - To render element: 
+           root.render(heading);
+# React Components:
+     - Class based Component -OLD
+     - Functional Component: normal JavaScript Function which return some jsx elements/react elements.
+     -Always create a component starting with capital letter
+     -To render component: 
+           root.render(<HeadingComponent/>);
+
+# Component Composition:
+     - Compositing component in one another.
+# Putting a React Component in React Component
+     - put that component in <ComponentName/>
+          or
+     - <ComponentName><ComponentName/>
+           or
+     - {ComponentName()}
+
+# {}
+    -  inside {  } any javaScript code can be injected and executed.
+    -  It will come down as HTML in browser.
+    -  This { }  will sanitize data and prevent cross site scripting attack for us. This enables us to use API data without worrying.
+
+# Putting a React Element in React Component
+    - put that element in { }  
+# Putting a React Element in React Element
+     - put that element in { }  and the use it in another element
+
+
+
+
+     
+  
+
+
+
+
